@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "pl.edu.agh.waieiib.smarthome"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "pl.edu.agh.waieiib.smarthome"
+        },
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "pl.edu.agh.waieiib.smarthome"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "pl.edu.agh.waieiib.smarthome"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "pl.edu.agh.waieiib.smarthome"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "pl.edu.agh.waieiib.smarthome"
+        }
+    },
+    "dependent_plugins": {}
+}

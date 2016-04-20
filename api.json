@@ -1,0 +1,151 @@
+{
+  "movement/last": {
+    "time": null
+  },
+  "movement/2015-11-09": [],
+  "movement/2015-11-10": [
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "shotUrl": "http://media.radio.lublin.pl/images/news/299000/00000000298122001.jpg"
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763"
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "shotUrl": "http://media.radio.lublin.pl/images/news/299000/00000000298122001.jpg"
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763"
+    }
+  ],
+  "movement/2016-02-07": [
+    {
+      "moment": "2014-10-29T16:51:47.763",
+      "shotUrl": "http://media.radio.lublin.pl/images/news/299000/00000000298122001.jpg"
+    },
+    {
+      "moment": "2014-10-29T16:51:47.763"
+    },
+    {
+      "moment": "2014-10-29T16:51:47.763",
+      "shotUrl": "http://media.radio.lublin.pl/images/news/299000/00000000298122001.jpg"
+    }
+  ],
+  "door/lastOpen": {
+    "time": "2015-10-29T16:51:47.763"
+  },
+  "door/2016-02-07": [
+    {
+      "moment": "2015-10-29T16:51:47.763"
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763"
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763"
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763"
+    }
+  ],
+  "temperatureBmp180/celsius": {
+    "value": 26.1
+  },
+  "temperatureBmp180/2016-02-07": [
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 26.2
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 26.3
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 26.8
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 26
+    }
+  ],
+  "temperatureMcp9808/celsius": {
+    "value": 22.2
+  },
+  "temperatureMcp9808/2016-02-07": [
+    {
+      "moment": "2015-11-29T16:51:47.763",
+      "value": 26.2
+    },
+    {
+      "moment": "2015-11-29T16:51:47.763",
+      "value": 26.3
+    },
+    {
+      "moment": "2015-11-29T16:51:47.763",
+      "value": 26.8
+    }
+  ],
+  "pressure/hPa": {
+    "value": 1000
+  },
+  "pressure/2016-02-07": [
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 1000
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 966
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 1023
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 1001
+    }
+  ],
+  "attitude/meter": {
+    "value": 300
+  },
+  "attitude/2016-02-07": [
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 200
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 201
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 200
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 199
+    }
+  ],
+  "lightsensor/lx": {
+    "value": 555
+  },
+  "lightsensor/2016-02-07": [
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 566
+    },
+    {
+      "moment": "2015-10-29T16:51:47.763",
+      "value": 666
+    }
+  ],
+  "lightrelay": {
+    "relayState": "OFF"
+  },
+  "electricaloutletrelay": {
+    "relayState": "ON"
+  }
+}

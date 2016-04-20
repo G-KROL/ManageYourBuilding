@@ -1,0 +1,24 @@
+<div class="list card">
+<div class="row">
+ <div class="item item-avatar">
+    <img src="img/Attitude.png">
+	<h2 class="title">Attitude Sensor</h2>
+	
+	</div>
+	<button ng-click="openHistory(attCtrl, {'unit': 'm'})" class="col button button-icon icon-right ion-more positive"></button>
+</div>  
+
+
+ <div class=" row item item-positive">
+<div class="col"></div> 
+
+<button ng-click="attCtrl.refresh()" class="col button button-icon icon-right icon ion-refresh stable  "></button>
+</div>
+
+    <div class="row">
+      <span class="col padding-vertical padding-horizontal">Attitude:</span>
+      <span class="padding-vertical padding-horizontal">{{attCtrl.attitudeMeter}}</span>
+     <span class="padding-vertical padding-horizontal">[m]</span>
+    </div>
+
+</div>

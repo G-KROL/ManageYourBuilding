@@ -1,0 +1,24 @@
+<div class="list card">
+<div class="row">
+ <div class="item item-avatar">
+    <img src="img/temperature.png">
+	<h2 class="title">Temperature Sensor</h2>
+	
+	</div>
+	<button ng-click="openHistory(tempCtrl180, {'unit': '&deg;C'})" class="col button button-icon icon-right ion-more positive"></button>
+</div>  
+
+
+ <div class=" row item item-positive">
+<div class="col"></div> 
+
+<button ng-click="tempCtrl180.refresh()" class="col button button-icon icon-right icon ion-refresh stable  "></button>
+</div>
+
+    <div class="row">
+      <span class="col padding-vertical padding-horizontal">Temperature:</span>
+      <span class="padding-vertical padding-horizontal">{{tempCtrl180.tempCelsius}}</span>
+    <span class="padding-vertical padding-horizontal">[&deg;C]</span>
+    </div>
+
+</div>

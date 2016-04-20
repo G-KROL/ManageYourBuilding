@@ -1,0 +1,37 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <div>
+      <ionic-datepicker input-obj="datepickerObject">
+        <button class="button button-positive"> {{datepickerObject.inputDate | date:'yyyy-MM-dd'}}</button>
+      </ionic-datepicker>
+    </div>
+    <div class="h1 title">History of day {{historyDay}}</div>
+    <button class="button button-clear" ng-click="closeHistory()">Close</button>
+  </ion-header-bar>
+  <ion-content>
+    <div ng-if="items.length">
+      <ion-list ng-show="items">
+        <ion-item ng-repeat="item in items">
+          <div>
+            <span>{{(item.moment | date:'HH:mm:ss')}}</span>
+            <span ng-if="item.value">{{item.value}} {{unit}}</span>
+
+            <div ng-if="item.shotUrl" class="item-button-right">
+              <button ng-click="openShot(item.shotUrl)" class="button positive button-icon icon ion-image">
+              </button>
+            </div>
+          </div>
+        </ion-item>
+      </ion-list>
+    </div>
+    <div class="item item-text-wrap" ng-if="!items.length">
+      <p class="text-center">No data!</p>
+    </div>
+  </ion-content>
+  <ion-footer-bar>
+    <div class="buttons">
+      <button class="button button-icon icon-left ion-paperclip positive" ng-click="getCsvHistory()">CSV Download
+      </button>
+    </div>
+  </ion-footer-bar>
+</ion-modal-view>

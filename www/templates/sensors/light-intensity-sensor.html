@@ -1,0 +1,25 @@
+<div class="list card">
+<div class="row">
+ <div class="item item-avatar">
+    <img src="img/Light-Intensity.png">
+	<h2 class="title">Light Intensity Sensor</h2>
+	
+	</div>
+	<button ng-click="openHistory(lightIntensityCtrl, {'unit': 'lx'})" class="col button button-icon icon-right ion-more positive"></button>
+</div>  
+
+
+ <div class=" row item item-positive">
+<div class="col"></div> 
+
+<button ng-click="lightIntensityCtrl.refresh()" class="col button button-icon icon-right icon ion-refresh stable  "></button>
+</div>
+
+    <div class="row">
+      <span class="col padding-vertical padding-horizontal">Light Intensity:</span>
+      <span class="padding-vertical padding-horizontal">{{lightIntensityCtrl.lightIntensityLx}}</span>
+     <span class="padding-vertical padding-horizontal">[lx]</span>
+    </div>
+
+</div>
+

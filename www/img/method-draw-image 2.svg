@@ -1,0 +1,25 @@
+<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="1202" width="1602" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <text xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_72" y="226.975466" x="680.709247" stroke-width="0" fill="#3E7D9B" stroke="null" transform="matrix(1.1175891160964966,0,0,1.1048474311828613,0,0) "/>
+  <g stroke="null" id="svg_3">
+   <path stroke="null" fill="#3E7D9B" stroke-width="null" opacity="0.5" d="m-25.00208,1046.813029c0,0 194.123204,-156.174246 194.12317,-158.693109" id="svg_4"/>
+   <circle stroke="null" id="svg_21" r="48.269066" cy="182.11654" cx="312.289199" fill="#cccccc"/>
+   <circle stroke="null" id="svg_22" r="48.269016" cy="182.11654" cx="433.085836" fill="#cccccc"/>
+   <circle stroke="null" id="svg_23" r="48.269016" cy="182.11654" cx="551.18227" fill="#cccccc"/>
+   <circle stroke="null" id="svg_24" r="48.269016" cy="315.702849" cx="315.366705" fill="#cccccc"/>
+   <circle stroke="null" id="svg_25" r="48.268982" cy="315.702849" cx="433.085836" fill="#0000ff" stroke-width="0"/>
+   <circle stroke="null" id="svg_26" r="48.269081" cy="319.73315" cx="551.18227" fill="#cccccc"/>
+   <circle stroke="null" id="svg_27" r="48.269066" cy="449.289157" cx="315.366705" fill="#0000ff" stroke-width="0"/>
+   <circle stroke="null" id="svg_28" r="48.269047" cy="449.289157" cx="433.085836" fill="#0000ff" stroke-width="0"/>
+   <text stroke="null" font-style="italic" transform="matrix(9.900577302250483,0,0,14.043342235232755,-3953.0435022107645,-5839.703697250277) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_70" y="451.742603" x="462.197198" stroke-width="0" fill="#0000ff">Manage</text>
+   <text stroke="null" font-style="italic" font-weight="bold" transform="matrix(7.360241231129957,0,0,16.754628665024857,-1179.0110291182714,-6560.731722382593) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_71" y="444.288763" x="196.566259" stroke-width="0" fill="#cccccc">Your Building</text>
+   <circle stroke="null" id="svg_5" r="48.269081" cy="450.958221" cx="550.24409" fill="#0000ff" stroke-width="0"/>
+  </g>
+ </g>
+</svg>
